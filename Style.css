@@ -1,6 +1,7 @@
 /* Universal Selector */
 *{
     font-family: Garamond, serif;
+    background-color: white;
     color: blue;
     box-sizing: border-box;
 }
@@ -87,5 +88,8 @@ h1{
 @media screen and (max-width: 800px) {
     .Problem_Div_FirstColumn, .Problem_Div_SecondColumn{
       width: 100%;
+    }
+    .Solution_Center_Div{
+        width: 100%;
     }
 }
