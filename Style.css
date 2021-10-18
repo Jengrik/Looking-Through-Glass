@@ -1,7 +1,7 @@
 /* Universal Selector */
 *{
     font-family: Garamond, serif;
-    background-color: white;
+    /* background-color: white; */
     color: blue;
     box-sizing: border-box;
 }
