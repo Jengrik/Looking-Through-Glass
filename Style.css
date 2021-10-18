@@ -1,0 +1,91 @@
+/* Universal Selector */
+*{
+    font-family: Garamond, serif;
+    color: blue;
+    box-sizing: border-box;
+}
+
+/* Element Selector */
+h1{
+    text-align: center;
+}
+
+/* Class Selector */
+.DirectWay{
+    text-align: left;
+    font-style: italic;
+}
+
+.MirrorWay{
+    text-align: right;
+    font-style: italic;
+}
+
+.RoundedImage{
+    width:100%;
+    object-fit:cover;
+    /* border-radius:50%; */
+}
+
+.Solution_Center_Div{
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+.Solution_Inner_Div{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.SolveButtonClass{
+    width:50%;
+    text-align: center;
+    font-size:large;
+}
+
+.InputNumberClass{
+    width:100%;
+    text-align: center;
+    font-size:larger;
+}
+
+.GoodCheckParagraph{
+    text-align:justify;
+    color: blue;
+}
+
+.BadCheckParagraph, .BadCheckParagraph > b{
+    text-align:justify;
+    color: red;
+}
+
+/* ID Selector */
+#ClearFloats{
+    clear: both;			
+}
+
+#Answer{
+    color: blue;
+}
+
+/* ------------------------------------------------------ */
+/* ------------------ Responsive Design ------------------*/
+/* ------------------------------------------------------ */
+.Problem_Div_FirstColumn{
+    float: left;
+    width: 40%;
+}
+
+.Problem_Div_SecondColumn{
+    float: right;
+    width: 60%;
+}
+
+@media screen and (max-width: 800px) {
+    .Problem_Div_FirstColumn, .Problem_Div_SecondColumn{
+      width: 100%;
+    }
+}

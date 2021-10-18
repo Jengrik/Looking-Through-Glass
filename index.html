@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <title>Numeric Base Exercise</title>
+        <link rel="icon" href="PoliLogo.png">
+        <link rel="stylesheet" href="Style.css">
+        
+    </head>
+
+    <body>
+        <!-- Problem Statement -->
+        <h1> Alice Through the Looking Glass </h1>
+
+        <div class="Problem_Div_FirstColumn">
+            <img src="Alicia.jpg" class="RoundedImage" />
+            <p style="text-align: center;"> Figure 1. Alice & The Looking Glass Print </p>
+        </div>
+
+        <div class="Problem_Div_SecondColumn">
+            <p> There was a book lying near Alice on the table, ..., she turned over the leaves, to find some part that she could read, ‘ – for it’s all in some language I don’t know,’ she said to herself. It was like this. </p>
+    
+            <p class= MirrorWay> YKCOWREBBAJ <br>
+            sevot yhtils eht dna ,gillirb sawT‘ <br>
+            ;ebaw eht ni elbmig dna eryg diD <br>
+            ,sevogorob eht erew ysmim llA <br>
+            .ebargtuo shtar emom eht dnA </p>
+        
+            <p> There was a book lying near Alice on the table, ..., she turned over the leaves, to find some part that she could read, ‘ – for it’s all in some language I don’t know,’ she said to herself. It was like this. </p>
+            <p> She puzzled over this for some time, but at last a bright thought struck her. ‘Why, it’s a Looking-glass book, of course! And if I hold it up to a glass, the words will all go the right way again.’</p>
+            <p> This was the poem that Alice read:</p>
+
+            <p class= DirectWay> JABBERWOCKY <br>
+            ‘Twas brillig, and the slithy toves <br>
+            Did gyre and gimble in the wabe; <br>
+            All mimsy were the borogoves, <br>
+            And the mome raths outgrabe. </p>
+        <p style="font-weight: bold; text-align: right;"> Lewis Carroll, Through the Looking Glass </p>
+        </div>
+
+        <p id="ClearFloats">Some few days later, Alice noticed that when she said 51, some people understood 15, and some others 51. And when she said 43, they understood 34 or 43. Of course, such a risk of misunderstanding is a serious trouble to play arithmetic games. Then she realized that there was no problem saying 343, because in this case the others would always understand what she meant.</p>
+        <p>But, what can she do if she wanted to say 51, anyway?</p>
+
+        <!-- Solution -->
+        <h1> Solution </h1>
+        <p>In this section you can test the problem's solution proposed. Please, enter the required data and click on "Give me the solution!" button.</p>
+        <p>Enjoy!</p>
+        <div class="Solution_Center_Div">
+            <form autocomplete="off">
+                <fieldset>
+                    <legend><b>Solution Data Set</b></legend>
+                    <label for="InputNumber">Enter the number that you want to send through the mirror. You should write it in 10 base.</label><br><br>
+                    <input type="number" id="InputNumber" class="InputNumberClass" value=""><br>
+                    <p class="GoodCheckParagraph">Please, just write numbers, ergo [0-9] characters.</p>
+                    <div class="Solution_Inner_Div">
+                        <button type="button" class="SolveButtonClass">Give me the solution!</button> 
+                    </div>
+                    <p id="Answer"> </p>
+                </fieldset>
+            </form>
+        </div>
+
+        <!-- Thanks to: -->
+        <p id="Designer"><b>Problem Design by:</b><br>Eng. Rafael Armando García Gómez, PhD.</p>
+        <p id="Developer"><b>Solution Design by:</b><br>Eng. Jhon Erik Navarrete Gómez, M.Eng.</p>
+
+        <!-- DOM Script Controller -->
+        <script src="Events.js"></script>
+        <script src="Code.js"></script> 
+
+    </body>
+</html>
